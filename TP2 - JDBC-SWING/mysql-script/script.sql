@@ -18,3 +18,5 @@ foreign key (joueur1) references joueur(joueurId),
 foreign key (joueur2) references joueur(joueurId),
 foreign key (vainqueur) references joueur(joueurId)
 ) engine = innodb;
+
+select * from joueur;
